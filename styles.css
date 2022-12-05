@@ -1,0 +1,195 @@
+html, body{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .main-section{
+    background-color: black;
+    min-height: 55rem;
+  }
+  
+  h1{
+    color: white;
+    position: absolute;
+    top: 20rem;
+    left: 25rem;
+    font-size: 65px;
+  }
+  
+  span{
+    color: red;
+  }
+  
+  .webDev{  
+    color: white;
+    position: absolute;
+    top: 25rem;
+    left: 18rem;
+    font-size: 58px;
+  }
+  
+  button{
+    padding: 30px;
+    position: absolute;
+    top:31rem;
+    left: 36rem;
+    background-color: brown;
+    font-size: 300px;
+    color: white;
+  }
+  
+  .main-btn{
+    font-style: italic;
+    scroll-behavior: smooth;
+  }
+  
+  .btn:hover{
+    color: #000;
+    background-color: lightskyblue;
+    transition-duration: 0.3s;
+  }
+  
+  .main-btn{
+    text-decoration: none;
+    font-size: 30px;
+  }
+  
+  .second-section{
+    background-color: rgb(35, 84, 84);
+    min-height: 55rem;
+    background-image: linear-gradient(black,rgb(99, 96, 96));
+  }
+  
+  .about{
+    color: aquamarine;
+    position: absolute;
+    left: 40rem;
+    /* position: relative; */
+    top: 60rem;
+    font-size: 50px;
+    letter-spacing: 4px;
+    text-decoration: underline;
+  }
+  
+  .desc{
+    color: white;
+    font-size: 20px;
+  
+  }
+  
+  .para-about{
+    position: relative;
+    top: 170px;
+    left: 50px;
+    margin: 0rem 27rem;
+  }
+  
+  .third-section{
+    /* background-color: rgb(35, 84, 84); */
+    min-height: 55rem;
+    background-image: linear-gradient(rgb(99, 96, 96), black);
+  }
+  
+  .projects{
+    color: rgb(253, 63, 63);
+    text-decoration: underline;
+    position: absolute;
+    left: 33rem;
+    font-size: 55px;
+    letter-spacing: 4px;
+    word-spacing: 4px;
+  }
+  
+  .firstSection{
+    position: relative;
+    top: 5rem;
+  }
+  
+  .secondCards{
+    margin: 60px 0px;
+    justify-content: space-around;
+  }
+  
+  .card{
+    background: transparent;
+    border-color: transparent;
+  }
+  
+  .footer{
+    height: 17rem;
+    background-color: rgb(152, 152, 152);
+  }
+  
+  .email{
+    color: blue;
+    text-decoration: none;
+    cursor: pointer;
+    justify-content: center;
+    position: relative;
+    font-size: 25px;
+    transition: 0.3s;
+    left: 32rem;
+    top: 30px;
+  }
+  
+  .email:hover{
+    color: lightskyblue;
+  }
+  
+  
+  footer .mdi-chevron-double-up {
+      background: #e31b6d;
+      cursor: pointer;
+      font-size: 30pt;
+      height: 50px;
+      left: 0;
+      line-height: 40pt;
+      margin: 0 auto;
+      position: relative;
+      right: 0;
+      /* bottom: 205px; */
+      transition: background 0.5s;
+      width: 47px;
+  }
+  .page-link {
+      cursor: pointer;
+  }
+  
+  
+  .mdi {
+    position: absolute;
+    top: 30rem;
+  }
+  
+  .icon{
+    position: relative;
+    top: -30px;
+    left: 42rem;
+    scroll-behavior: smooth;
+    background-color: rgb(255, 49, 49);
+    padding: 0px;
+  }
+  
+  .icon:hover{
+    background-color: aqua;
+    transition: 0.5s;
+  }
+  
+  /* #linkedin{
+    position: relative;
+    left: 25rem;
+  } */
+  
+  .icons{
+    /* justify-content: space-evenly; */
+    align-items: center;
+    position: relative;
+    left: 2rem;
+    overflow-x: hidden;
+    top: 4rem;
+  }
+  
+  .card-title{
+    color: white;
+  }
+  
